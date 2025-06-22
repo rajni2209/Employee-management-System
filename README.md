@@ -1,4 +1,3 @@
-# Employee-management-System
 # 🧑‍💼 Employee Management System
 
 A simple web-based **Employee Management System** built using **Spring MVC**, **Spring ORM**, **Spring Core**, **JSP**, **Hibernate**, and **MySQL**.
