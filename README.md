@@ -82,8 +82,19 @@ src/
 webapp/
 
 ```
+## 🛠️ Bug Fix: Cancel Button (Edit Page)
 
+If you face a `HTTP 400 – Bad Request` error when clicking the **Cancel** button on the edit page, it’s because the form was submitting or the URL was incorrect.
+
+**❌ Wrong:**
+```jsp
+<a class="cancel" href="cancel">Cancel</a>
+```
+**replace with:**
+```jsp
+<a class="cancel" href="${pageContext.request.contextPath}/cancel">Cancel</a>
+```
 ## 🙋‍♂️ Author
-
+---
 - **Rajnikant**  
   [GitHub Profile](https://github.com/rajni2209)
